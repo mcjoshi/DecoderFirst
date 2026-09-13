@@ -1,0 +1,31 @@
+{
+ "dataset": "desed",
+ "result": "v2_desed_raw.json",
+ "n_clips": 667,
+ "psds": {
+  "psds1": {
+   "avg": 0.5269,
+   "fusion:sweep": 0.5128
+  },
+  "psds2": {
+   "avg": 0.7557,
+   "fusion:sweep": 0.7329
+  }
+ },
+ "boot": {
+  "psds1": {
+   "fusion:sweep-avg": [
+    -0.0428,
+    -0.0154,
+    0.0014
+   ]
+  },
+  "psds2": {
+   "fusion:sweep-avg": [
+    -0.0458,
+    -0.0288,
+    -0.0121
+   ]
+  }
+ }
+}

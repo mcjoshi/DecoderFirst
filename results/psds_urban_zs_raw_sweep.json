@@ -1,0 +1,31 @@
+{
+ "dataset": "urbansed",
+ "result": "v2_urban_zs_raw.json",
+ "n_clips": 2000,
+ "psds": {
+  "psds1": {
+   "avg": 0.1993,
+   "fusion:sweep": 0.1195
+  },
+  "psds2": {
+   "avg": 0.3168,
+   "fusion:sweep": 0.1921
+  }
+ },
+ "boot": {
+  "psds1": {
+   "fusion:sweep-avg": [
+    -0.0894,
+    -0.0811,
+    -0.0729
+   ]
+  },
+  "psds2": {
+   "fusion:sweep-avg": [
+    -0.1357,
+    -0.1261,
+    -0.1153
+   ]
+  }
+ }
+}

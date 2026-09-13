@@ -1,0 +1,510 @@
+{
+ "dataset": "urbansed",
+ "collar": 0.2,
+ "members": 7,
+ "stats": {
+  "avg_prob": {
+   "fp_kind": {
+    "spurious": 1607,
+    "mislocalized": 3184,
+    "duplicate": 7
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.031,
+    "off": 0.064
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.041,
+    "missed": 0.273
+   },
+   "m_on": {
+    "n": 4922,
+    "median": 0.042
+   },
+   "m_off": {
+    "n": 4922,
+    "median": 0.076
+   },
+   "onset_err": {
+    "n": 6641,
+    "median": 0.058,
+    "within_100ms": 0.61
+   },
+   "offset_err": {
+    "n": 6641,
+    "median": 0.104,
+    "within_100ms": 0.492
+   },
+   "tp": {
+    "n": 3450,
+    "hist": [
+     0,
+     0,
+     0,
+     18,
+     77,
+     177,
+     466,
+     2712
+    ],
+    "share_support_le1": 0.0
+   },
+   "fp": {
+    "n": 4798,
+    "hist": [
+     0,
+     1,
+     13,
+     258,
+     730,
+     852,
+     838,
+     2106
+    ],
+    "share_support_le1": 0.0
+   }
+  },
+  "wbf_median": {
+   "fp_kind": {
+    "spurious": 1013,
+    "mislocalized": 2325,
+    "duplicate": 1
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.033,
+    "off": 0.063
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.013,
+    "missed": 0.328
+   },
+   "m_on": {
+    "n": 4703,
+    "median": 0.039
+   },
+   "m_off": {
+    "n": 4703,
+    "median": 0.068
+   },
+   "onset_err": {
+    "n": 5872,
+    "median": 0.048,
+    "within_100ms": 0.67
+   },
+   "offset_err": {
+    "n": 5872,
+    "median": 0.085,
+    "within_100ms": 0.543
+   },
+   "tp": {
+    "n": 3546,
+    "hist": [
+     0,
+     0,
+     0,
+     42,
+     114,
+     201,
+     488,
+     2701
+    ],
+    "share_support_le1": 0.0
+   },
+   "fp": {
+    "n": 3339,
+    "hist": [
+     0,
+     0,
+     0,
+     121,
+     275,
+     405,
+     567,
+     1971
+    ],
+    "share_support_le1": 0.0
+   }
+  },
+  "sebb:avg_prob": {
+   "fp_kind": {
+    "spurious": 858,
+    "mislocalized": 2456
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.023,
+    "off": 0.049
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.022,
+    "missed": 0.324
+   },
+   "m_on": {
+    "n": 4527,
+    "median": 0.026
+   },
+   "m_off": {
+    "n": 4527,
+    "median": 0.045
+   },
+   "onset_err": {
+    "n": 6011,
+    "median": 0.033,
+    "within_100ms": 0.723
+   },
+   "offset_err": {
+    "n": 6011,
+    "median": 0.062,
+    "within_100ms": 0.606
+   },
+   "tp": {
+    "n": 3555,
+    "hist": [
+     3,
+     9,
+     12,
+     32,
+     104,
+     219,
+     505,
+     2671
+    ],
+    "share_support_le1": 0.003
+   },
+   "fp": {
+    "n": 3314,
+    "hist": [
+     1,
+     2,
+     14,
+     55,
+     217,
+     358,
+     582,
+     2085
+    ],
+    "share_support_le1": 0.001
+   }
+  },
+  "wbf_median_sebb": {
+   "fp_kind": {
+    "spurious": 554,
+    "mislocalized": 2128,
+    "duplicate": 2
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.025,
+    "off": 0.053
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.018,
+    "missed": 0.386
+   },
+   "m_on": {
+    "n": 4300,
+    "median": 0.028
+   },
+   "m_off": {
+    "n": 4300,
+    "median": 0.053
+   },
+   "onset_err": {
+    "n": 5462,
+    "median": 0.035,
+    "within_100ms": 0.726
+   },
+   "offset_err": {
+    "n": 5462,
+    "median": 0.069,
+    "within_100ms": 0.594
+   },
+   "tp": {
+    "n": 3332,
+    "hist": [
+     1,
+     6,
+     4,
+     21,
+     60,
+     136,
+     427,
+     2677
+    ],
+    "share_support_le1": 0.002
+   },
+   "fp": {
+    "n": 2684,
+    "hist": [
+     0,
+     1,
+     6,
+     34,
+     92,
+     224,
+     407,
+     1920
+    ],
+    "share_support_le1": 0.0
+   }
+  },
+  "single:BEATs-adapt": {
+   "fp_kind": {
+    "spurious": 2299,
+    "mislocalized": 3427,
+    "duplicate": 6
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.044,
+    "off": 0.084
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.042,
+    "missed": 0.279
+   },
+   "m_on": {
+    "n": 4725,
+    "median": 0.053
+   },
+   "m_off": {
+    "n": 4725,
+    "median": 0.097
+   },
+   "onset_err": {
+    "n": 6590,
+    "median": 0.073,
+    "within_100ms": 0.573
+   },
+   "offset_err": {
+    "n": 6590,
+    "median": 0.139,
+    "within_100ms": 0.423
+   },
+   "tp": {
+    "n": 3157,
+    "hist": [
+     0,
+     25,
+     29,
+     52,
+     82,
+     135,
+     356,
+     2478
+    ],
+    "share_support_le1": 0.008
+   },
+   "fp": {
+    "n": 5732,
+    "hist": [
+     0,
+     524,
+     482,
+     522,
+     489,
+     572,
+     753,
+     2390
+    ],
+    "share_support_le1": 0.091
+   }
+  },
+  "single:ASIT-adapt": {
+   "fp_kind": {
+    "spurious": 2559,
+    "mislocalized": 3635,
+    "duplicate": 3
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.043,
+    "off": 0.069
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.052,
+    "missed": 0.273
+   },
+   "m_on": {
+    "n": 4757,
+    "median": 0.055
+   },
+   "m_off": {
+    "n": 4757,
+    "median": 0.088
+   },
+   "onset_err": {
+    "n": 6810,
+    "median": 0.081,
+    "within_100ms": 0.544
+   },
+   "offset_err": {
+    "n": 6810,
+    "median": 0.131,
+    "within_100ms": 0.442
+   },
+   "tp": {
+    "n": 3172,
+    "hist": [
+     0,
+     15,
+     16,
+     44,
+     87,
+     149,
+     385,
+     2476
+    ],
+    "share_support_le1": 0.005
+   },
+   "fp": {
+    "n": 6197,
+    "hist": [
+     0,
+     414,
+     553,
+     606,
+     693,
+     682,
+     848,
+     2401
+    ],
+    "share_support_le1": 0.067
+   }
+  },
+  "sebb:single:BEATs-adapt": {
+   "fp_kind": {
+    "spurious": 1070,
+    "mislocalized": 2599,
+    "duplicate": 5
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.036,
+    "off": 0.073
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.028,
+    "missed": 0.365
+   },
+   "m_on": {
+    "n": 4256,
+    "median": 0.039
+   },
+   "m_off": {
+    "n": 4256,
+    "median": 0.078
+   },
+   "onset_err": {
+    "n": 5724,
+    "median": 0.05,
+    "within_100ms": 0.676
+   },
+   "offset_err": {
+    "n": 5724,
+    "median": 0.1,
+    "within_100ms": 0.5
+   },
+   "tp": {
+    "n": 3120,
+    "hist": [
+     1,
+     14,
+     24,
+     38,
+     77,
+     116,
+     339,
+     2511
+    ],
+    "share_support_le1": 0.005
+   },
+   "fp": {
+    "n": 3674,
+    "hist": [
+     5,
+     160,
+     168,
+     227,
+     220,
+     327,
+     511,
+     2056
+    ],
+    "share_support_le1": 0.045
+   }
+  },
+  "sebb:single:ASIT-adapt": {
+   "fp_kind": {
+    "spurious": 761,
+    "mislocalized": 2737,
+    "duplicate": 13
+   },
+   "common": {
+    "n": 2873,
+    "on": 0.037,
+    "off": 0.061
+   },
+   "frag": {
+    "refs": 8802,
+    "split_2plus": 0.043,
+    "missed": 0.396
+   },
+   "m_on": {
+    "n": 4035,
+    "median": 0.04
+   },
+   "m_off": {
+    "n": 4035,
+    "median": 0.063
+   },
+   "onset_err": {
+    "n": 5678,
+    "median": 0.052,
+    "within_100ms": 0.642
+   },
+   "offset_err": {
+    "n": 5678,
+    "median": 0.093,
+    "within_100ms": 0.513
+   },
+   "tp": {
+    "n": 2928,
+    "hist": [
+     1,
+     11,
+     8,
+     22,
+     57,
+     110,
+     332,
+     2387
+    ],
+    "share_support_le1": 0.004
+   },
+   "fp": {
+    "n": 3511,
+    "hist": [
+     8,
+     45,
+     105,
+     123,
+     220,
+     294,
+     497,
+     2219
+    ],
+    "share_support_le1": 0.015
+   }
+  }
+ }
+}

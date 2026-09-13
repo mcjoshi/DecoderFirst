@@ -1,0 +1,55 @@
+{
+ "dataset": "desed",
+ "result": "v2_desed_raw.json",
+ "n_clips": 667,
+ "psds": {
+  "psds1": {
+   "avg": 0.5269,
+   "fusion": 0.3628,
+   "sebb:avg": 0.5933,
+   "sebb:fusion": 0.4986
+  },
+  "psds2": {
+   "avg": 0.7557,
+   "fusion": 0.5167,
+   "sebb:avg": 0.7681,
+   "sebb:fusion": 0.6173
+  }
+ },
+ "boot": {
+  "psds1": {
+   "fusion-avg": [
+    -0.2174,
+    -0.1746,
+    -0.1404
+   ],
+   "sebb:fusion-sebb:avg": [
+    -0.1266,
+    -0.0958,
+    -0.0701
+   ],
+   "sebb:avg-avg": [
+    0.0329,
+    0.0555,
+    0.0814
+   ]
+  },
+  "psds2": {
+   "fusion-avg": [
+    -0.2923,
+    -0.2437,
+    -0.2091
+   ],
+   "sebb:fusion-sebb:avg": [
+    -0.1983,
+    -0.1511,
+    -0.1211
+   ],
+   "sebb:avg-avg": [
+    -0.0017,
+    0.0077,
+    0.0192
+   ]
+  }
+ }
+}
